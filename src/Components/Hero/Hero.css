@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "nidus_sans";
+  src: url("../webfontkit-20240625-173956/nidsans-webfont-webfont.woff2")
+    format("woff2");
+  /* url("../webfontkit-20240625-173956/") format("woff"); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Hero {
+  background-image: var(--background);
+  color: white;
+}
+/*
+/*
+---------------HERO NAVIGATION---------------
+/*
+*/
+.navigation-h {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  font-family: "nidus_sans";
+}
+.logo-h,
+.chart-h {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.navBar-h {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 3;
+}
+.navBar-h > div {
+  border: 2px solid var(--blue);
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+}
+.navBar-h ul {
+  display: flex;
+}
+.navBar-h li {
+  padding: 2rem 5rem;
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+.navBar-h li:hover {
+  background-color: white;
+  color: var(--blue);
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+}
+/*
+/*
+---------------HERO SECTION---------------
+/*
+*/
+.content-h {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+
+  /* top: 150px; */
+}
+
+.text-h {
+  position: relative;
+  top: 100px;
+  letter-spacing: 3px;
+  padding: 20px;
+  font-family: "nidus_sans";
+  z-index: 12;
+  /* width: 50%; */
+}
+
+.text-h h1 {
+  font-size: 4rem;
+}
+.paragraph-h {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+/*
+/*
+---------------HERO IMAGES---------------
+/*
+*/
+.images-h {
+  /* position: relative; */
+  margin-top: -250px;
+}
+.img-h {
+  width: 400px;
+  opacity: 0.5;
+  padding: 10px 10px;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 0.45rem var(--blue));
+}
+
+.img-h:nth-child(2) {
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+.img-h:nth-child(3) {
+  opacity: 0;
+}
+
+.img-h:nth-child(4) {
+  transform: rotateY(180deg);
+  /* filter: drop-shadow(0 0 0.45rem black); */
+}
+.img-h:nth-child(5) {
+  transform: rotateY(180deg);
+}
+.img-h:nth-child(6) {
+  transform: rotateY(180deg);
+}
+
+.img-h:nth-child(8) {
+  transform: rotateY(180deg);
+  /* filter: drop-shadow(0 0 0.45rem black); */
+}
